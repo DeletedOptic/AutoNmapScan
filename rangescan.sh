@@ -1,20 +1,5 @@
 #!/bin/bash
 
-# automated nmap scanner
-
-# $FILE=/home/leviticus/scriptresults.sh
-# $TEST="$(test $FILE)"
-
-# if [ $TEST == true ];
-# then
-#  rm scriptresultsopen.sh 2>/dev/null
-#  rm scriptresultsclose.sh 2>/dev/null
-#  rm scriptresults.sh 2>/dev/null
-# else
-
-$IPRange=/home/leviticus/dictionary2.txt
-
-echo $IPRange
 
 echo "Please input an IP address: "
 read FirstIP  # takes user input and stores in enviroment variable
